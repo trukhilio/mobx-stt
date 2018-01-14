@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+
+}
+
+.App-logo {
+    width: 300px;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-left: 20px solid green;
+    margin-top: 20px;
+    background-color: #a7ffde;
+    width: 400px;
+}
+.item > h3 {
+    color: dimgray;
+    margin: 20px;
+}
+.item > span {
+    align-self: flex-end;
+}
+.item > div {
+    width: 300px;
+}
+.item > div > img {
+    display: block;
+    width: 100%;
+}
